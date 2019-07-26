@@ -236,4 +236,36 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+  
+}
+
+/* @keyframes example { */
+  /* from {background-color:#fff;} */
+  /* to {background-color: pink;} */
+/* } */
+
+
+
+@media  (min-width: 980px) {
+  body {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media  (min-width: 640px) {
+    body {
+      width: 100%;
+      padding: 20px;
+     }
+    #masthead {
+    position: static;
+  }
 }
